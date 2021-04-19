@@ -9,5 +9,5 @@
   tasks:
     - name: Change the hostname
       hostname:
-        name="test2"
+        name="test2" 
   
