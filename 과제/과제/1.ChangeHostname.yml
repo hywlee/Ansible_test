@@ -1,8 +1,13 @@
 ---
-- hosts: "{{ RUNSVR }}"
+- hosts: "awx-10-50-2-160,"
   tasks:
     - name: Change the hostname
       hostname:
-        name="{{ inventory_hostname }}"
-      when:
-        ansible_fqdn != ansible_ssh_host
+        name="test1"
+  
+- hosts: "awx-10-50-2-161"
+  tasks:
+    - name: Change the hostname
+      hostname:
+        name="test2"
+  
