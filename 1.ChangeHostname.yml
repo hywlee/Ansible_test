@@ -1,11 +1,11 @@
 ---
-- hosts: "awx-10-50-2-161"
+- hosts: "hywlee-server1.igts.com"
   tasks:
     - name: Change the hostname
       hostname:
         name="test1"
   
-- hosts: "10.50.2.161"
+- hosts: "hywlee-server2.igts.com"
   tasks:
     - name: Change the hostname
       hostname:
