@@ -1,5 +1,5 @@
 ---
-- hosts: "hywlee-server1.igts.com,"
+- hosts: "hywlee-server1.igts.com"
   tasks:
     - name: Change the hostname
       hostname:
