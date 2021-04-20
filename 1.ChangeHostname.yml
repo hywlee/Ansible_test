@@ -1,5 +1,5 @@
 ---
-- hosts: "10.50.2.160"
+- hosts: "awx-10-50-2-161"
   tasks:
     - name: Change the hostname
       hostname:
