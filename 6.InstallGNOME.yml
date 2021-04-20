@@ -1,0 +1,6 @@
+---
+- hosts: "{{ RUNSVR }}"
+
+  tasks:
+    - name: Install GNOME
+      yum:

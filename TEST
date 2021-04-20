@@ -1,0 +1,5 @@
+---
+- hosts: " {{ RUNSRV }} "
+  tasks:
+    - name: Change hostname
+      command: hostname "Test_inventory"
